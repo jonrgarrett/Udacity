@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Notes</h1>
+    <nav>
+      <a href="About">About</a>
+      <a href="Projects">Projects</a>
+      <a href="Contact">Contact</a>
+    </nav>
+  </header>
+
+  <div>
+    <img src="desert.jpeg" alt="desert">
+  </div>
+
+  <div class="random">
+    <h4>Where to start?</h4>
+    <p>Starting with HTML and CSS is good because it teaches fundamentals of programming.</p>
+  </div>
+
+  <div class="main">
+    <div class="thirds">
+      <h4>How the Web Works</h4>
+      <p>The web is comprised of the browser, the Internet, HTTP, and servers. When you enter a URL into your browser the request is sent to a server to retrieve a HTML file. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies.
+      </p>
+    </div>
+    <div class="thirds">
+      <h4>Inline and Block Elements</h4>
+      <p>HTML elements are either <em>inline</em> or <em>block</em>. <b>Block</b> elements have an invisible box around them. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies.
+      </p>
+    </div>
+    <div class="thirds">
+      <h4>Resources</h4>
+      <p><a href="https://www.w3schools.com" target="_blank">w3schools.com</a> velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies.
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <h3>HTML, CSS, and DOM</h3>
+  </div>
+
+  <div class="main">
+    <div class="thirds">
+      <h4>HTML</h4>
+      <p>HyperText Markup Language - the standard markup language used to create web pages. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies.
+      </p>
+    </div>
+    <div class="thirds">
+      <h4>CSS</h4>
+      <p>Cascading Style Sheet - style sheet language used for describing the look and formatting of a document written in a markup language. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies.
+      </p>
+    </div>
+    <div class="thirds">
+      <h4>DOM</h4>
+      <p>Document Object Model - a cross-platform and language-independent convention for    representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.
+      </p>
+    </div>
+  </div>
+
+  <div class="list">
+    <div>
+      <h3>Box Sizing and Positioning</h3>
+    </div>
+    <div>
+      <h4>Box Sizing</h4>
+      <p>There are four main points that Jessica addressed about box sizing</p>
+      <ol>
+        <li>HTML elements are boxes and each box has 4 components.</li>
+        <li>Because there are so many components to each box, it can often be hard to get the size of a box just right.</li>
+        <li>There are two techniques you can use to help deal with sizing issues:
+          <ul>
+            <li>Set sizes in terms of percentages rather than pixels.</li>
+            <li>Set the box-sizing attribute to border-box for every element</li>
+          </ul>
+        </li>
+        <li>Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.</li>
+      </ol>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
